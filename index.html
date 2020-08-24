@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Art</title>
+  <link rel="stylesheet" href="8_digital_art.css">
+</head>
+<body>
+<div class="title">
+<h1>Use Cursor to Create</h1>
+<div class="lineStyle">
+  <h2>Change Line Style:</h2>
+<form>
+  <input type="radio" id="butt" name="lineCap" value="butt" onclick="handleClick(this);" checked="checked">
+  <label for="butt">choppy</label><br>
+  <input type="radio" id="round" name="lineCap" value="round" onclick="handleClick(this);">
+  <label for="round">round</label><br>
+  <input type="radio" id="square" name="lineCap" value="square" onclick="handleClick(this);">
+  <label for="square">boxy</label>
+</form>
+<form>
+<label for="square">line width</label>
+  <input type="range" id="square" name="lineWidth" min="10" max="100" onchange="handleChange(this.value);">
+</form>
+</div>
+
+  
+  
+
+</div>
+   
+<canvas id="draw" width="800" height="800"></canvas>
+<script src='8_digital_art.js'>
+</script>
+
+<style>
+  
+</style>
+
+</body>
+</html>

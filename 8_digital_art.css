@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+  }
+  h1{
+      text-align: center;
+  }
+  .title{
+      color: whitesmoke;
+    border: 1rem solid black;  
+    background-image: url('https://images.unsplash.com/photo-1598180518186-83b2abde6ea7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=961&q=80');
+  }
+  form{
+      display:flex;
+      flex-flow: column;
+      align-content: center;
+      justify-content: center ;
+      margin: 1rem;
+      font-size: medium;
+      font-weight: bold;
+  }
+  .lineStyle{
+      display: flex;
+      flex-flow:row;
+      align-content: center;
+      justify-content: center ;
+  }
